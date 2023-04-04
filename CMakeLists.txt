@@ -6,10 +6,10 @@ include(cmake/ExportProject.cmake)
 # find dependencies
 find_package(xbot2 REQUIRED)
 
+
 # add main target
 add_library(ec_xbot2_interfaces
     INTERFACE
-    include/ec_xbot2/joint_ec.h
 )
 
 target_include_directories(ec_xbot2_interfaces
