@@ -1,6 +1,8 @@
 cmake_minimum_required(VERSION 3.0)
 project(ec_xbot2_interfaces VERSION 1.0.0)
 
+set(CMAKE_CXX_STANDARD 20)
+
 include(cmake/ExportProject.cmake)
 
 # find dependencies
