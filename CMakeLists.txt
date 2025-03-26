@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.0)
+cmake_minimum_required(VERSION 3.16)
 project(ec_xbot2_interfaces VERSION 1.0.0)
 
 set(CMAKE_CXX_STANDARD 20)
